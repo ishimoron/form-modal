@@ -1,0 +1,18 @@
+$font-path: '../fonts/';
+$font-family: 'NatoSans', sans-serif;
+
+@font-face {
+	font-family: $font-family;
+	src: url('#{$font-path}NatoSans-Medium.ttf') format('ttf'),
+		url('#{$font-path}NatoSans-Medium.ttf') format('ttf');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family;
+	src: url('#{$font-path}NatoSans-Bold.ttf') format('ttf'),
+		url('#{$font-path}NatoSans-Bold.ttf') format('ttf');
+	font-weight: bold;
+	font-style: normal;
+}
